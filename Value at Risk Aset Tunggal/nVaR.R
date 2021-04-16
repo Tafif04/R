@@ -10,7 +10,6 @@ saham = function(code, from, to){
 #Example TLKM.JK (Telkom Indonesia (Persero) Tbk)
 TLKM = saham(code = 'TLKM.JK', from = "2020-01-31", to = "2020-02-27")
 TLKM = as.data.frame(TLKM)
-View(TLKM)
 
 #Return Geometric
 Return = function (x)
