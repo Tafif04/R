@@ -35,4 +35,4 @@ shapiro.test(Resid)
 ##Homogenity Test
 plot(RAL,1)
 library(car)
-leveneTest(Respon~Perlakuan, data = Data)
+leveneTest(Resid~Perlakuan, data = Data)
