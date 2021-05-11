@@ -42,7 +42,7 @@ shapiro.test(Resid)
 plot(RAKL,1)
 library(car)
 ###Perlakuan
-leveneTest(Respon~Perlakuan, data = Data)
+leveneTest(Resid~Perlakuan, data = Data)
 ###Kelompok
-leveneTest(Respon~Kelompok, data = Data)
+leveneTest(Resid~Kelompok, data = Data)
 
